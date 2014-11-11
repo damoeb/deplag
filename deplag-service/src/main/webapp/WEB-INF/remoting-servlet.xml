@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="application-context.xml" />
+
+    <!-- Binary Service -->
+    <bean name="/IndexService" class="org.springframework.remoting.caucho.HessianServiceExporter">
+        <property name="service" ref="indexService"/>
+        <property name="serviceInterface" value="com.ausserferner.deplag.service.IndexService"/>
+    </bean>
+
+    <bean id="indexService" class="com.ausserferner.deplag.service.DefaultIndexService" depends-on="indexWriter">
+        <property name="index" ref="indexWriter"/>
+    </bean>
+
+</beans>

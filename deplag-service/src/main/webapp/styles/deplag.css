@@ -1,0 +1,41 @@
+/*BODY {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-size: 14px;*/
+    /*font-family: serif;*/
+/*}*/
+/*DIV#view {*/
+    /*padding: 10px;*/
+    /*width:600px*/
+/*}*/
+/*DIV.box {*/
+    /*padding: 5px;*/
+/*}*/
+TEXTAREA {
+    resize: none;
+}
+/*#output {*/
+    /*padding: 15px;*/
+    /*line-height: 20px;*/
+    /*text-align: justify;*/
+/*}*/
+SPAN.hit {
+    background-color: #8dc0ff;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+SPAN.needle {
+    background-color: #ffc08d;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+/*.ui-tooltip-titlebar,*/
+/*.ui-tooltip-content {*/
+    /*width:550px!important;*/
+/*}*/
+/*.ui-tooltip-content {*/
+    /*line-height: 20px;*/
+    /*text-align: justify!important;*/
+    /*font-size: 14px;*/
+    /*font-family: serif;*/
+/*}*/
