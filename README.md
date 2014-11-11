@@ -20,6 +20,7 @@ In contrast to a conventianal search, the author of the document that is checked
 Hence, we cannot work on word level. The abstract projection that will be used must be independend of text length, word order, misspelling, removed words and the well-known issues mentioned before. 
 
 We create checksums of group of words (Locality-sensitive hashing) and store it in a nosql database.
+
     {
         hash: 'n5o8s8n4s7n5t5a3',
         documents: [
