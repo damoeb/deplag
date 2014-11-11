@@ -17,7 +17,24 @@ The process of plagiarism detection can be seen as a complex search, like google
 
 In contrast to a conventianal search, the author of the document that is checked for plagiarisms, will (assume it is acting puckish) try to cover all tracks. So, rephrasing, reordering words and shuffling sentences are well-known problems that limit the performance of plagiarism detection.
 
-Hence, we cannot work on word level. The abstract projection that will be used must be independend of text length, word order, misspelling, removed words and the well known issues mentioned before.
+Hence, we cannot work on word level. The abstract projection that will be used must be independend of text length, word order, misspelling, removed words and the well-known issues mentioned before. 
+
+We create checksums of group of words (Locality-sensitive hashing) and store it in a nosql database.
+    {
+        hash: 'n5o8s8n4s7n5t5a3',
+        documents: [
+            {
+                documentId: 326,
+                segments: [
+                    {
+                        fromIndex: 8924,
+                        toIndex: 8978
+                    }
+                ]
+            }
+        ]
+    }
+
 
 checksuming groups of words
 
