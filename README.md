@@ -4,7 +4,7 @@ deplag
 What is it?
 -----------
 
-This a prototype of a plagiarism detector.  It is comes with a HTML frontend to display the potential rip-offs. These matches are displayed as diffs. 
+This a proove of concept of a plagiarism detector.  It is comes with a HTML frontend to display the potential rip-offs. These matches are displayed as diffs. 
 
 The Latest Version
 ------------------
