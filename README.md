@@ -4,7 +4,7 @@ deplag
 What is it?
 -----------
 
-This a proove of concept of a plagiarism detector.  It is comes with a HTML frontend to display the potential rip-offs. These matches are displayed as diffs. 
+This a proove of concept of a plagiarism detector.  It comes with a HTML frontend to display the potential matches. These matches are displayed as diffs. 
 
 The Latest Version
 ------------------
@@ -61,13 +61,8 @@ I am sorry to tell you, the current code does not run. It's been a while..
 
 ### Modules
 * *deplag-core* index and search
-* *deplag-Service* diff ui
+* *deplag-service* diff ui
 
-
-Licensing
-------------
-
-Please see the file called LICENSE.
 
 Contacts
 --------
